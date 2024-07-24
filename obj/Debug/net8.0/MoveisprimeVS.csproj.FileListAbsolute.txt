@@ -28,3 +28,4 @@ C:\Users\Aluno Noite\Documents\MoveisprimeVS\MoveisprimeVS\obj\Debug\net8.0\refi
 C:\Users\Aluno Noite\Documents\MoveisprimeVS\MoveisprimeVS\obj\Debug\net8.0\MoveisprimeVS.pdb
 C:\Users\Aluno Noite\Documents\MoveisprimeVS\MoveisprimeVS\obj\Debug\net8.0\MoveisprimeVS.genruntimeconfig.cache
 C:\Users\Aluno Noite\Documents\MoveisprimeVS\MoveisprimeVS\obj\Debug\net8.0\ref\MoveisprimeVS.dll
+C:\Users\Aluno Noite\Documents\MoveisprimeVS\MoveisprimeVS\obj\Debug\net8.0\MoveisprimeVS.sourcelink.json
