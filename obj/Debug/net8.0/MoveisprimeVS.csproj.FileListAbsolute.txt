@@ -29,3 +29,4 @@ C:\Users\Aluno Noite\Documents\MoveisprimeVS\MoveisprimeVS\obj\Debug\net8.0\Move
 C:\Users\Aluno Noite\Documents\MoveisprimeVS\MoveisprimeVS\obj\Debug\net8.0\MoveisprimeVS.genruntimeconfig.cache
 C:\Users\Aluno Noite\Documents\MoveisprimeVS\MoveisprimeVS\obj\Debug\net8.0\ref\MoveisprimeVS.dll
 C:\Users\Aluno Noite\Documents\MoveisprimeVS\MoveisprimeVS\obj\Debug\net8.0\MoveisprimeVS.sourcelink.json
+C:\Users\Aluno Noite\Documents\MoveisprimeVS\MoveisprimeVS\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout_Gerenciamento.cshtml.rz.scp.css

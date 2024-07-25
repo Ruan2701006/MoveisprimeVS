@@ -4,23 +4,13 @@ using System.Diagnostics;
 
 namespace MoveisprimeVS.Controllers
 {
-    public class UsuarioController : Controller
+    public class AgendamentoController : Controller
     {
-        private readonly ILogger<UsuarioController> _logger;
+        private readonly ILogger<AgendamentoController> _logger;
 
-        public UsuarioController(ILogger<UsuarioController> logger)
+        public AgendamentoController(ILogger<AgendamentoController> logger)
         {
             _logger = logger;
-        }
-
-        public IActionResult Login()
-        {
-            return View();
-        }
-
-        public IActionResult Cadastro()
-        {
-            return View();
         }
 
         public IActionResult Index()
@@ -28,6 +18,15 @@ namespace MoveisprimeVS.Controllers
             return View();
         }
 
+        public IActionResult Cadastro_Agendamento()
+        {
+            return View();
+        }
+
+        public IActionResult Gerenciamento_Agendamento_Usuario()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
