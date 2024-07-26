@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aluno Noite\\Downloads\\jasmine-standalone-5.1.2\\MoveisprimeVS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A0BD73-ED8F-4D7D-B3F8-3C5EAE2649FE}|MoveisprimeVS.csproj|c:\\users\\aluno noite\\downloads\\jasmine-standalone-5.1.2\\moveisprimevs\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A0BD73-ED8F-4D7D-B3F8-3C5EAE2649FE}|MoveisprimeVS.csproj|solutionrelative:views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A0BD73-ED8F-4D7D-B3F8-3C5EAE2649FE}|MoveisprimeVS.csproj|c:\\users\\aluno noite\\downloads\\jasmine-standalone-5.1.2\\moveisprimevs\\views\\agendamento\\cadastro_agendamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A0BD73-ED8F-4D7D-B3F8-3C5EAE2649FE}|MoveisprimeVS.csproj|solutionrelative:views\\agendamento\\cadastro_agendamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A0BD73-ED8F-4D7D-B3F8-3C5EAE2649FE}|MoveisprimeVS.csproj|c:\\users\\aluno noite\\downloads\\jasmine-standalone-5.1.2\\moveisprimevs\\views\\shared\\_layoutcadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A0BD73-ED8F-4D7D-B3F8-3C5EAE2649FE}|MoveisprimeVS.csproj|solutionrelative:views\\shared\\_layoutcadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cadastro_Agendamento.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno Noite\\Downloads\\jasmine-standalone-5.1.2\\MoveisprimeVS\\Views\\Agendamento\\Cadastro_Agendamento.cshtml",
+              "RelativeDocumentMoniker": "Views\\Agendamento\\Cadastro_Agendamento.cshtml",
+              "ToolTip": "C:\\Users\\Aluno Noite\\Downloads\\jasmine-standalone-5.1.2\\MoveisprimeVS\\Views\\Agendamento\\Cadastro_Agendamento.cshtml",
+              "RelativeToolTip": "Views\\Agendamento\\Cadastro_Agendamento.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T18:08:08.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno Noite\\Downloads\\jasmine-standalone-5.1.2\\MoveisprimeVS\\Views\\Usuario\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Aluno Noite\\Downloads\\jasmine-standalone-5.1.2\\MoveisprimeVS\\Views\\Usuario\\Login.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T18:02:09.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LayoutCadastro.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno Noite\\Downloads\\jasmine-standalone-5.1.2\\MoveisprimeVS\\Views\\Shared\\_LayoutCadastro.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutCadastro.cshtml",
+              "ToolTip": "C:\\Users\\Aluno Noite\\Downloads\\jasmine-standalone-5.1.2\\MoveisprimeVS\\Views\\Shared\\_LayoutCadastro.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutCadastro.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T18:00:19.171Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aluno Noite\\Documents\\MoveisprimeVS\\MoveisprimeVS\\MoveisprimeVS.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno Noite\\Downloads\\jasmine-standalone-5.1.2\\MoveisprimeVS\\MoveisprimeVS.csproj",
       "projectName": "MoveisprimeVS",
-      "projectPath": "C:\\Users\\Aluno Noite\\Documents\\MoveisprimeVS\\MoveisprimeVS\\MoveisprimeVS.csproj",
+      "projectPath": "C:\\Users\\Aluno Noite\\Downloads\\jasmine-standalone-5.1.2\\MoveisprimeVS\\MoveisprimeVS.csproj",
       "packagesPath": "C:\\Users\\Aluno Noite\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aluno Noite\\Documents\\MoveisprimeVS\\MoveisprimeVS\\obj\\",
+      "outputPath": "C:\\Users\\Aluno Noite\\Downloads\\jasmine-standalone-5.1.2\\MoveisprimeVS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aluno Noite\\AppData\\Roaming\\NuGet\\NuGet.Config",
