@@ -34,8 +34,7 @@
               "RelativeToolTip": "Views\\Agendamento\\Cadastro_Agendamento.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T18:08:08.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T18:08:08.665Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "Views\\Usuario\\Login.cshtml",
               "ToolTip": "C:\\Users\\Aluno Noite\\Downloads\\jasmine-standalone-5.1.2\\MoveisprimeVS\\Views\\Usuario\\Login.cshtml",
               "RelativeToolTip": "Views\\Usuario\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-26T18:02:09.645Z",
               "EditorCaption": ""
@@ -60,8 +59,7 @@
               "RelativeToolTip": "Views\\Shared\\_LayoutCadastro.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T18:00:19.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T18:00:19.171Z"
             }
           ]
         }
