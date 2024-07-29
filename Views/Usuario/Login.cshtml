@@ -1,28 +1,23 @@
-﻿@{
-    Layout = "~/Views/Shared/_Layout_Gerenciamento.cshtml";
-}
+﻿
+<!DOCTYPE html>
+<html lang="en">
 
-<head>
-    <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="~/img/favicon.ico" type="image/x-ico">
+<!-- Favicons -->
+<link rel="shortcut icon" href="~/img/favicon.ico" type="image/x-ico">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-    <!-- bibliotecas -->
-    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="~/lib/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="~/lib/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="~/lib/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="~/lib/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="~/lib/swiper/swiper-bundle.min.css" rel="stylesheet">
+<!-- bibliotecas -->
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="~/lib/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="~/lib/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="~/lib/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="~/lib/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="~/css/login.css">
-
-    <title>Login Page</title>
-</head>
+<link rel="stylesheet" href="~/css/login.css">
 
 <title>Login Page</title>
 
@@ -38,7 +33,7 @@
                        aria-controls="pills-login" aria-selected="true">Login</a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="tab-register" href="/Usuario/Cadastro" role="tab"
+                    <a class="nav-link" id="tab-register" href="Cadastro.html" role="tab"
                        aria-controls="pills-register" aria-selected="false">Cadastrar</a>
                 </li>
             </ul>
@@ -100,7 +95,7 @@
                             </button>
                             <button type="button" id="send-button2" class="nav-link active btn btn-primary btn-block"
                                     style="flex: 1; margin-left: 5px;"
-                                    onclick="window.location.href = '/Home/Index'">
+                                    onclick="window.location.href = 'index.html';">
                                 Voltar
                             </button>
                         </div>
@@ -114,33 +109,36 @@
             </div>
         </div>
     </div>
-
-    <!-- JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script>
-        function ConsultaLogin() {
-            var email = $("#loginEmail").val();
-            var senha = $("#loginPassword").val();
-
-            $.ajax({
-                type: "POST",
-                url: "/Usuario/ConsultarUsuario",
-                data: { Email: email, Senha: senha },
-                dataType: "json",
-                success: function (result) {
-                    if (result.success) {
-                        window.location.href = '/Home/Index';
-                    } else {
-                        // Exiba uma mensagem de erro
-                        alert("Erro: " + result.message);
-                    }
-                },
-                error: function (error) {
-                    console.error(error);
-                    // Lógica para lidar com erros de chamada Ajax
-                }
-            });
-        }
-    </script>
 </body>
 
+
+<!-- JavaScript -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    function ConsultaLogin() {
+        var email = $("#loginEmail").val();
+        var senha = $("#loginPassword").val();
+
+        $.ajax({
+            type: "POST",
+            url: "/Usuario/ConsultarUsuario",
+            data: { Email: email, Senha: senha },
+            dataType: "json",
+            success: function (result) {
+                if (result.success) {
+                    window.location.href = '/Home/Index';
+                } else {
+                    // Exiba uma mensagem de erro
+                    alert("Erro: " + result.message);
+                }
+            },
+            error: function (error) {
+                console.error(error);
+                // Lógica para lidar com erros de chamada Ajax
+            }
+        });
+    }
+</script>
+</body>
+
+</html>
